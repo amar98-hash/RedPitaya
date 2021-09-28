@@ -49,7 +49,7 @@ if { $list_projs eq "" } {
 
 # CHANGE DESIGN NAME HERE
 variable design_name
-set design_name init_proj_design
+set design_name system
 
 # If you do not already have an existing IP Integrator design open,
 # you can create a design using the following command:
