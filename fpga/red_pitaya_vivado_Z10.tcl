@@ -7,7 +7,7 @@
 
 set prj_name [lindex $argv 0]
 puts "Project name: $prj_name"
-cd prj/$prj_name
+cd C:/Users/Amar/MyWorkspace_FPGA_Designs/RedPitaya-master/fpga/$prj_name
 #cd prj/$::argv 0
 
 ################################################################################
