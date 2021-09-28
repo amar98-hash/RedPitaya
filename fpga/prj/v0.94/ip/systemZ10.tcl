@@ -39,7 +39,7 @@ if { [string first $scripts_vivado_version $current_vivado_version] == -1 } {
 
 # If there is no project opened, this script will create a
 # project, but make sure you do not have an existing project
-# <./myproj/project_1.xpr> in the current working folder.
+#<./myproj/project_1.xpr> in the current working folder.
 
 set list_projs [get_projects -quiet]
 if { $list_projs eq "" } {
@@ -66,8 +66,8 @@ if { ${design_name} eq "" } {
    # USE CASES:
    #    1) Design_name not set
 
-   set errMsg "Please set the variable <design_name> to a non-empty value."
-   set nRet 1
+   ##set errMsg "Please set the variable <design_name> to a non-empty value."
+   ##set nRet 1
 
 } elseif { ${cur_design} ne "" && ${list_cells} eq "" } {
    # USE CASES:
