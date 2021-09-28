@@ -16,7 +16,7 @@ cd C:/Users/Amar/Documents/Xilinx_workspace/RedPitaya-master/fpga/$prj_name
 
 set path_brd C:/Users/Amar/Documents/Xilinx_workspace/RedPitaya-master/fpga/brd
 set path_rtl C:/Users/Amar/Documents/Xilinx_workspace/RedPitaya-master/fpga/rtl
-set path_ip  C:/Users/Amar/Documents/Xilinx_workspace/RedPitaya-master/fpga/ip
+set path_ip  C:/Users/Amar/Documents/Xilinx_workspace/RedPitaya-master/fpga/prj/v0.94/ip
 set path_bd  project/redpitaya.srcs/sources_1/bd/system/hdl
 set path_sdc C:/Users/Amar/Documents/Xilinx_workspace/RedPitaya-master/fpga/sdc
 set path_sdc_prj sdc
