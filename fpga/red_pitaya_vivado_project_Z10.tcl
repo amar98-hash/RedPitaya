@@ -53,7 +53,7 @@ generate_target all [get_files    system.bd]
 # 3. constraints
 ################################################################################
 
-add_files                         ../../$path_rtl
+add_files                         $path_rtl
 add_files                         $path_rtl
 add_files                         $path_bd
 
