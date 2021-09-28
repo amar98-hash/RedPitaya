@@ -7,18 +7,18 @@
 
 set prj_name [lindex $argv 0]
 puts "Project name: $prj_name"
-cd prj/$prj_name
+cd C:\Users\Amar\Documents\Xilinx_workspace/$prj_name
 #cd prj/$::argv 0
 
 ################################################################################
 # define paths
 ################################################################################
 
-set path_brd ../../brd
-set path_rtl rtl
-set path_ip  ip
+set path_brd C:\Users\Amar\Documents\RedPitaya-master\fpga/brd
+set path_rtl C:\Users\Amar\Documents\RedPitaya-master\fpga/rtl
+set path_ip  C:\Users\Amar\Documents\RedPitaya-master\fpga/ip
 set path_bd  project/redpitaya.srcs/sources_1/bd/system/hdl
-set path_sdc ../../sdc
+set path_sdc C:\Users\Amar\Documents\RedPitaya-master\fpga/sdc
 set path_sdc_prj sdc
 
 ################################################################################
