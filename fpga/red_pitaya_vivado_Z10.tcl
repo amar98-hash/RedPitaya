@@ -81,7 +81,7 @@ add_files -fileset constrs_1      $path_sdc_prj/red_pitaya.xdc
 
 set gith [exec git log -1 --format="%H"]
 set_property generic "GITH=160'h$gith" [current_fileset]
-
+th
 ################################################################################
 # run synthesis
 # report utilization and timing estimates
