@@ -53,7 +53,7 @@ set design_name system
 
 # If you do not already have an existing IP Integrator design open,
 # you can create a design using the following command:
-#    create_bd_design $design_name
+create_bd_design $design_name
 
 # Creating design if needed
 set errMsg ""
