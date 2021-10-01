@@ -68,6 +68,7 @@ add_files -fileset constrs_1      $path_sdc_prj/red_pitaya.xdc
 
 import_files -force
 
+set_property top red_pitaya_top_Z20 [current_fileset]
+
 update_compile_order -fileset sources_1
 
-set_property top red_pitaya_top_Z20 [current_fileset]
