@@ -11,7 +11,7 @@
 set project_name Led_blink
 set part_name xc7z010clg400-1
 set bd_path tmp/$project_name/$project_name.srcs/sources_1/bd/system
-set cfg_path C:\Users\Amar\Documents\Xilinx_workspace\RedPitaya-master\fpga\prj\Examples\Led_blink
+set cfg_path C:\Users\Amar\Documents\Xilinx_workspace\RedPitaya-master\fpga\prj\Examples\Led_blink\cfg
 
 
 file delete -force tmp/$project_name
