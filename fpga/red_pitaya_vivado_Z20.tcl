@@ -72,7 +72,7 @@ write_hwdef -force       -file    $path_sdk/red_pitaya.hwdef
 
 add_files -quiet                  [glob -nocomplain ../../$path_rtl/*_pkg.sv]
 add_files -quiet                  [glob -nocomplain       $path_rtl/*_pkg.sv]
-add_files                         ../../$path_rtl
+add_files                         ../$path_rtl
 add_files                               $path_rtl
 add_files                               $path_bd
 
